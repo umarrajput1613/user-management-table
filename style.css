@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-
-=======
-/* style.css */
->>>>>>> c9f09763dd97b178b8935b1f4ee392bc6723c31b
 * {
   margin: 0;
   padding: 0;
@@ -84,11 +79,8 @@ body {
   background-color: #0056b3;
 }
   ********************************/
-<<<<<<< HEAD
+  /* Icon size classes – already exist, no change */
 
-=======
-/* Icon size classes – already exist, no change */
->>>>>>> c9f09763dd97b178b8935b1f4ee392bc6723c31b
 .btn-styling img {
   width: 13px;
   height: 16px;
