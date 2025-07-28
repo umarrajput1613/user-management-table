@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+<!--
+  Author: Umar Rajput
+  Description: User Management UI with table, avatars, actions & status.
+-->
+
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A user management table with avatars, actions, and status indicators.">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  
+  <title>User Management Table</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+
+  <div class="center-wrapper">
+
+    <div class="table-container">
+
+      <div class="header">
+        <h1>User  <div class="bold">Management</div></h1>
+        <div class="btn-container">
+  <button class="btn-styling">
+    <img src="plus2.png" alt="Export" />
+    Export to Excel
+  </button>
+  <button class="btn-styling1">
+    <img src="plus.png" alt="Add User" />
+    Add New User
+  </button>
+</div>
+
+      </div>
+
+      <table>
+        <tr>
+          <th>#</th>
+          <th>Name</th>
+          <th>Date Created</th>
+          <th>Role</th>
+          <th>Status</th>
+          <th>Action</th>
+        </tr>
+
+        <tr>
+          <td>1</td>
+          <td><img src="https://randomuser.me/api/portraits/men/1.jpg" class="user-avatar" alt="User"> <b>Michael Holz</b></td>
+          <td>04/10/2013</td>
+          <td>Admin</td>
+          <td><span class="status-dot green-dot"></span> Active</td>
+          <td>
+            <img src="https://img.icons8.com/ios-filled/20/007bff/settings.png" class="icon-btn" alt="Settings Icon"/>
+            <img src="https://img.icons8.com/ios-glyphs/20/fa314a/delete-sign.png" class="icon-btn" alt="Delete Icon"/>
+          </td>
+        </tr>
+
+        <tr>
+          <td>2</td>
+          <td><img src="https://randomuser.me/api/portraits/women/1.jpg" class="user-avatar" alt="User"> <b>Paula Wilson</b></td>
+          <td>05/08/2014</td>
+          <td>Publisher</td>
+          <td><span class="status-dot green-dot"></span> Active</td>
+          <td>
+            <img src="https://img.icons8.com/ios-filled/20/007bff/settings.png" class="icon-btn" alt="Settings Icon"/>
+            <img src="https://img.icons8.com/ios-glyphs/20/fa314a/delete-sign.png" class="icon-btn" alt="Delete Icon"/>
+          </td>
+        </tr>
+
+        <tr>
+          <td>3</td>
+          <td><img src="https://randomuser.me/api/portraits/men/2.jpg" class="user-avatar" alt="User"> <b>Antonio Moreno</b></td>
+          <td>11/05/2015</td>
+          <td>Publisher</td>
+          <td><span class="status-dot red-dot"></span> Suspended</td>
+          <td>
+            <img src="https://img.icons8.com/ios-filled/20/007bff/settings.png" class="icon-btn" alt="Settings Icon"/>
+            <img src="https://img.icons8.com/ios-glyphs/20/fa314a/delete-sign.png" class="icon-btn" alt="Delete Icon"/>
+          </td>
+        </tr>
+
+        <tr>
+          <td>4</td>
+          <td><img src="https://randomuser.me/api/portraits/women/2.jpg" class="user-avatar" alt="User"> <b>Mary Saveley</b></td>
+          <td>06/09/2016</td>
+          <td>Reviewer</td>
+          <td><span class="status-dot green-dot"></span> Active</td>
+          <td>
+            <img src="https://img.icons8.com/ios-filled/20/007bff/settings.png" class="icon-btn" alt="Settings Icon"/>
+            <img src="https://img.icons8.com/ios-glyphs/20/fa314a/delete-sign.png" class="icon-btn" alt="Delete Icon"/>
+          </td>
+        </tr>
+
+        <tr>
+          <td>5</td>
+          <td><img src="https://randomuser.me/api/portraits/men/3.jpg" class="user-avatar" alt="User"> <b>Martin Sommer</b></td>
+          <td>12/08/2017</td>
+          <td>Moderator</td>
+          <td><span class="status-dot orange-dot"></span> Inactive</td>
+          <td>
+            <img src="https://img.icons8.com/ios-filled/20/007bff/settings.png" class="icon-btn" alt="Settings Icon"/>
+            <img src="https://img.icons8.com/ios-glyphs/20/fa314a/delete-sign.png" class="icon-btn" alt="Delete Icon"/>
+          </td>
+        </tr>
+
+      </table>
+      <div class="table-footer">
+  <div class="entries-info">
+    Showing <strong>5</strong> out of <strong>25</strong> entries
+  </div>
+  <div class="pagination">
+    <a href="#">Previous</a>
+    <a href="#" class="active">1</a>
+    <a href="#">2</a>
+    <a href="#">3</a>
+    <a href="#">4</a>
+    <a href="#">5</a>
+    <a href="#">Next</a>
+  </div>
+</div>
+    </div>
+  </div>
+</body>
+</html>
